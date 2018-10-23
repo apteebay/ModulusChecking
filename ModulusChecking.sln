@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModulusCheckingBL", "ModulusCheckingBL\ModulusCheckingBL.csproj", "{969A857C-D363-4AD5-B108-CBEBFA4802EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleCheckingTemp", "ModuleCheckingTemp\ModuleCheckingTemp.csproj", "{C3E61058-1686-4D29-95B8-A84A48D10570}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EFB87B4F-79F4-4049-88BE-AF5BF4E9A01A} = {EFB87B4F-79F4-4049-88BE-AF5BF4E9A01A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModulusCheckingTest", "ModulusCheckingTest\ModulusCheckingTest.csproj", "{1617EF23-28B2-4C12-A5E8-238810EEABD5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EFB87B4F-79F4-4049-88BE-AF5BF4E9A01A} = {EFB87B4F-79F4-4049-88BE-AF5BF4E9A01A}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ModuleCheckingService", "ModuleCheckingService", "{EFB87B4F-79F4-4049-88BE-AF5BF4E9A01A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{969a857c-d363-4ad5-b108-cbebfa4802ec}|ModulusCheckingBL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59270"
+		Debug.AspNetCompiler.PhysicalPath = "ModuleCheckingService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59270\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59270"
+		Release.AspNetCompiler.PhysicalPath = "ModuleCheckingService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59270\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59270"
+		SlnRelativePath = "ModuleCheckingService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{969A857C-D363-4AD5-B108-CBEBFA4802EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969A857C-D363-4AD5-B108-CBEBFA4802EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969A857C-D363-4AD5-B108-CBEBFA4802EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969A857C-D363-4AD5-B108-CBEBFA4802EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E61058-1686-4D29-95B8-A84A48D10570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E61058-1686-4D29-95B8-A84A48D10570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E61058-1686-4D29-95B8-A84A48D10570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E61058-1686-4D29-95B8-A84A48D10570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1617EF23-28B2-4C12-A5E8-238810EEABD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1617EF23-28B2-4C12-A5E8-238810EEABD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1617EF23-28B2-4C12-A5E8-238810EEABD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1617EF23-28B2-4C12-A5E8-238810EEABD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB87B4F-79F4-4049-88BE-AF5BF4E9A01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB87B4F-79F4-4049-88BE-AF5BF4E9A01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB87B4F-79F4-4049-88BE-AF5BF4E9A01A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB87B4F-79F4-4049-88BE-AF5BF4E9A01A}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C5CA685-1F99-47B1-94F8-026C65F392CF}
+	EndGlobalSection
+EndGlobal

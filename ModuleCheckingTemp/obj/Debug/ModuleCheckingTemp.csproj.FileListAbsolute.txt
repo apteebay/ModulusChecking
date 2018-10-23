@@ -1,0 +1,6 @@
+C:\Users\andrew.NEWLAND\Documents\Visual Studio 2017\Projects\ModulusChecking\ModuleCheckingTemp\bin\Debug\ModuleCheckingTemp.exe.config
+C:\Users\andrew.NEWLAND\Documents\Visual Studio 2017\Projects\ModulusChecking\ModuleCheckingTemp\bin\Debug\ModuleCheckingTemp.exe
+C:\Users\andrew.NEWLAND\Documents\Visual Studio 2017\Projects\ModulusChecking\ModuleCheckingTemp\bin\Debug\ModuleCheckingTemp.pdb
+C:\Users\andrew.NEWLAND\Documents\Visual Studio 2017\Projects\ModulusChecking\ModuleCheckingTemp\obj\Debug\ModuleCheckingTemp.csproj.CoreCompileInputs.cache
+C:\Users\andrew.NEWLAND\Documents\Visual Studio 2017\Projects\ModulusChecking\ModuleCheckingTemp\obj\Debug\ModuleCheckingTemp.exe
+C:\Users\andrew.NEWLAND\Documents\Visual Studio 2017\Projects\ModulusChecking\ModuleCheckingTemp\obj\Debug\ModuleCheckingTemp.pdb

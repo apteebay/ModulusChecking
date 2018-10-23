@@ -1,0 +1,6 @@
+C:\Users\andrew.NEWLAND\Documents\Visual Studio 2017\Projects\ModulusChecking\ModulusCheckingBL\bin\ModulusCheckingBL.dll
+C:\Users\andrew.NEWLAND\Documents\Visual Studio 2017\Projects\ModulusChecking\ModulusCheckingBL\bin\ModulusCheckingBL.pdb
+C:\Users\andrew.NEWLAND\Documents\Visual Studio 2017\Projects\ModulusChecking\ModulusCheckingBL\obj\Debug\ModulusCheckingBL.csproj.CoreCompileInputs.cache
+C:\Users\andrew.NEWLAND\Documents\Visual Studio 2017\Projects\ModulusChecking\ModulusCheckingBL\obj\Debug\ModulusCheckingBL.dll
+C:\Users\andrew.NEWLAND\Documents\Visual Studio 2017\Projects\ModulusChecking\ModulusCheckingBL\obj\Debug\ModulusCheckingBL.pdb
+C:\Users\andrew.NEWLAND\Documents\Visual Studio 2017\Projects\ModulusChecking\ModulusCheckingBL\bin\Data\valacdos.txt
