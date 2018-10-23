@@ -16,7 +16,6 @@ namespace ModuleCheckingTemp
                 var modulusCheck =  checkingServiceClient.GetCheckModulus("089999", "66374958");
             }
             
-            t = t;
         }
     }
 }
