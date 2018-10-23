@@ -27,7 +27,7 @@ namespace ModulusCheckingBL
         static SortCodeWeights()
         {
             var filePath = HttpContext.Current == null ?
-                Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase), "Data") :
+                Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase).Replace("file:\\",""), "Data") :
                 AppDomain.CurrentDomain.GetData("DataDirectory").ToString(); 
             
             filePath = Path.Combine(filePath, "valacdos.txt"); // We might want to define this in an App/Web.Config
