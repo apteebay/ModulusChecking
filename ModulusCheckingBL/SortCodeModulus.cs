@@ -54,6 +54,7 @@ namespace ModulusCheckingBL
                 {
                     c_accountNumber = value;
                     c_valid = null;
+                    c_implemented = null;
 
                     if (AdditionalCheck != null) AdditionalCheck.AccountNumber = value;
                 }
