@@ -62,7 +62,7 @@ namespace ModulusCheckingBL
         }
 
         /// <summary>
-        /// If this has a value than DoubleAlternate is used with this SortCodeWeight
+        /// If this has a value then DoubleAlternate is used with this SortCodeWeight
         /// </summary>
         public SortCodeModulus AdditionalCheck { get; set; }
 
